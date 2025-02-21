@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog/>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 22:07:23</sys_created_on>
+        <sys_id>334be32693ff1610f6b133018bba1001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Employee Lifecycle Manager" source="x_934078_employe_0">402d910e933f5210f6b133018bba1065</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Manager">402d910e933f5210f6b133018bba1065</sys_scope>
+        <sys_update_name>sc_category_334be32693ff1610f6b133018bba1001</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 22:07:23</sys_updated_on>
+        <title>HR</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=334be32693ff1610f6b133018bba1001"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Lifecycle Manager">402d910e933f5210f6b133018bba1065</application>
+        <file_path/>
+        <instance_id>7911429dfb77169489a2f4344eefdc87</instance_id>
+        <instance_name>dev295543</instance_name>
+        <name>sc_category_334be32693ff1610f6b133018bba1001</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog/><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-21 22:07:23</sys_created_on><sys_id>334be32693ff1610f6b133018bba1001</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR</sys_name><sys_package display_value="Employee Lifecycle Manager" source="x_934078_employe_0">402d910e933f5210f6b133018bba1065</sys_package><sys_policy/><sys_scope display_value="Employee Lifecycle Manager">402d910e933f5210f6b133018bba1065</sys_scope><sys_update_name>sc_category_334be32693ff1610f6b133018bba1001</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-21 22:07:23</sys_updated_on><title>HR</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=334be32693ff1610f6b133018bba1001"/></record_update>]]></payload>
+        <payload_hash>-934657160</payload_hash>
+        <record_name>HR</record_name>
+        <reverted_from/>
+        <source>c96f55ce933f5210f6b133018bba10b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 22:07:23</sys_created_on>
+        <sys_id>ba5b232693ff1610f6b133018bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1952a8d126f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 22:07:23</sys_updated_on>
+        <type>Category</type>
+        <update_guid>be5b23262eff161070ff01358986c6ce</update_guid>
+        <update_guid_history>be5b23262eff161070ff01358986c6ce:-934657160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR">a59ba72693ff1610f6b133018bba1056</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 22:08:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>8d622a60b08e468ca8fe4f27e55cc164</sys_id>
+        <sys_metadata>334be32693ff1610f6b133018bba1001</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Employee Lifecycle Manager" source="x_934078_employe_0">402d910e933f5210f6b133018bba1065</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Manager">402d910e933f5210f6b133018bba1065</sys_scope>
+        <sys_scope_delete display_value="">864409dc0f5948a6a8a05de15fd57121</sys_scope_delete>
+        <sys_update_name>sc_category_334be32693ff1610f6b133018bba1001</sys_update_name>
+        <sys_update_version display_value="sc_category_334be32693ff1610f6b133018bba1001">ba5b232693ff1610f6b133018bba10cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 22:08:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
