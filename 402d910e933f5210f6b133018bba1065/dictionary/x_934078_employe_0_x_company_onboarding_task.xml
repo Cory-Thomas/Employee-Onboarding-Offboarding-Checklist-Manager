@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="432d8b2e933f1610f6b133018bba1095" extends="task" label="company onboarding task" max_length="40" name="x_934078_employe_0_x_company_onboarding_task" type="collection">
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Task Template" max_length="32" name="task_template" reference="x_934078_employe_0_task_template" type="reference"/>
+        <element label="Related Employee" max_length="32" name="related_employee" reference="sys_user" type="reference"/>
+        <element choice="1" default="Onboard" label="Employee Transition Type" max_length="40" name="employee_transition_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Onboard" sequence="1" value="onboard"/>
+                <element inactive_on_update="false" label="Offboard" sequence="2" value="offboard"/>
+            </choice>
+        </element>
+    </element>
+</database>

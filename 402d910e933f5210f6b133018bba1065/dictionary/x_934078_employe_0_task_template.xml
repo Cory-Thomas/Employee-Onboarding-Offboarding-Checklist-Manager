@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="43e55b2a937f1610f6b133018bba108e" label="Task Template" max_length="40" name="x_934078_employe_0_task_template" type="collection">
+        <element label="Task Description" max_length="256" name="task_description" type="string"/>
+        <element label="Role" max_length="32" name="role" reference="sys_user_role" type="reference"/>
+        <element label="Default Assignee Group" max_length="32" name="default_assignee_group" reference="sys_user_group" type="reference"/>
+        <element label="SLA Days" max_length="40" name="sla_days" type="integer"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Task Name" max_length="100" name="task_name" type="string"/>
+        <index name="index">
+            <element name="default_assignee_group"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="role"/>
+        </index>
+    </element>
+</database>
