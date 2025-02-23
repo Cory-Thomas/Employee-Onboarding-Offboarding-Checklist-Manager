@@ -3,7 +3,7 @@
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Task Template" max_length="32" name="task_template" reference="x_934078_employe_0_task_template" type="reference"/>
         <element label="Related Employee" max_length="32" name="related_employee" reference="sys_user" type="reference"/>
-        <element choice="1" label="Employee Transition Type" max_length="40" name="employee_transition_type" type="choice">
+        <element choice="3" default="onboard" label="Employee Transition Type" max_length="40" name="employee_transition_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Onboard" sequence="1" value="onboard"/>
                 <element inactive_on_update="false" label="Offboard" sequence="2" value="offboard"/>
